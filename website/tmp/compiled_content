@@ -356,7 +356,7 @@
 	</div>
 	<hr class="clear" />
 </div>;T:	post@
-I"/stylesheets/stylesheet/;T{;{;I"Þ/**************
+I"/stylesheets/stylesheet/;T{;{;I"Ý/**************
     HEADER
 ***************/
 /* line 10, content/stylesheets/stylesheet.scss */
@@ -409,7 +409,7 @@ body {
 #content {
   padding: 20px 20px 20px 40px;
   float: left;
-  width: 1540px; }
+  width: 585px; }
   /* line 77, content/stylesheets/stylesheet.scss */
   #content img {
     margin: 0 auto; }
@@ -489,7 +489,7 @@ h2 {
     font-size: 10px;
     text-align: center;
     margin: 2px; }
-;T;	I"h
+;T;	I"g
 $blue: #0E4679;
 
 /**************
@@ -563,7 +563,7 @@ body {
 #content {
   padding: 20px 20px 20px 40px;
   float: left;
-  width :1540px;
+  width :585px;
 
   img{
     margin: 0 auto;
@@ -2042,7 +2042,7 @@ I":!<!-- CONTENT -->
 		</div>
 	</div>
 	<hr class="clear" />
-</div>;T;@uI"%/documents/bulletin_inscription/;T{;{ I"/contact/;T{;{	;I"	<!DOCTYPE HTML>
+</div>;T;@uI"%/documents/bulletin_inscription/;T{;{ I"/contact/;T{;{	;I"	<!DOCTYPE HTML>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -2087,7 +2087,7 @@ I":!<!-- CONTENT -->
 				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
@@ -2115,7 +2115,7 @@ I":!<!-- CONTENT -->
 
   </body>
 </html>
-;T;	I"}<!-- CONTENT -->
+;T;	I"‚<!-- CONTENT -->
 <div id="content_container">
 	<div id="content">
 		<form action="#" method="post" name="contact">
@@ -2133,7 +2133,7 @@ I":!<!-- CONTENT -->
 				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
@@ -2153,7 +2153,7 @@ I":!<!-- CONTENT -->
 	</div>
 	<hr class="clear" />
 </div>;T;
-I"}<!-- CONTENT -->
+I"‚<!-- CONTENT -->
 <div id="content_container">
 	<div id="content">
 		<form action="#" method="post" name="contact">
@@ -2171,7 +2171,7 @@ I"}<!-- CONTENT -->
 				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
