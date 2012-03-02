@@ -5,7 +5,7 @@ gem 'rack', '~> 1.2'
 gem 'nanoc'
 gem 'sinatra', :group => :development
 
-# gem 'pony'
+gem 'pony'
 # gem 'sqlite3-ruby'
 
 gem 'compass'

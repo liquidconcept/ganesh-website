@@ -1,4 +1,4 @@
-{:	data{4I"/:ET{:default{	:	lastI")<!DOCTYPE HTML>
+{:	data{5I"/:ET{:default{	:	lastI")<!DOCTYPE HTML>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -2077,7 +2077,7 @@ I":!<!-- CONTENT -->
 		</div>
 	</div>
 	<hr class="clear" />
-</div>;T;@uI"%/documents/bulletin_inscription/;T{;{ I"/contact/;T{;{	;I"X	<!DOCTYPE HTML>
+</div>;T;@uI"%/documents/bulletin_inscription/;T{;{ I"/contact/;T{;{	;I"O	<!DOCTYPE HTML>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -2108,22 +2108,22 @@ I":!<!-- CONTENT -->
 <!-- CONTENT -->
 <div id="content_container">
 	<div id="content">
-		<form action="#" method="post" name="contact">
+		<form action="/contact" method="post" name="contact">
 			<table border="0">
 				<tr>
-				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="prenom" required="required"/></td>
+				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="firstname" required /></td>
 				</tr>
 				<tr>
-				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="nom" required="required"/></td>
+				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="lastname" required /></td>
 				</tr>
 				<tr>		 	
-				 	<td><p>Mail :<small>(requis)</small></p><input type="mail" name="mail" required="required"/></td>
+				 	<td><p>Mail :<small>(requis)</small></p><input type="email" name="email" required /></td>
 				</tr>
 				<tr> 	
-				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
+				 	<td><p>Demande :<small>(requis)</small></p><textarea name="message" rows="10" cols="35" required ></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="submit" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
@@ -2151,25 +2151,25 @@ I":!<!-- CONTENT -->
 
   </body>
 </html>
-;T;	I"�<!-- CONTENT -->
+;T;	I"y<!-- CONTENT -->
 <div id="content_container">
 	<div id="content">
-		<form action="#" method="post" name="contact">
+		<form action="/contact" method="post" name="contact">
 			<table border="0">
 				<tr>
-				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="prenom" required="required"/></td>
+				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="firstname" required /></td>
 				</tr>
 				<tr>
-				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="nom" required="required"/></td>
+				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="lastname" required /></td>
 				</tr>
 				<tr>		 	
-				 	<td><p>Mail :<small>(requis)</small></p><input type="mail" name="mail" required="required"/></td>
+				 	<td><p>Mail :<small>(requis)</small></p><input type="email" name="email" required /></td>
 				</tr>
 				<tr> 	
-				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
+				 	<td><p>Demande :<small>(requis)</small></p><textarea name="message" rows="10" cols="35" required ></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="submit" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
@@ -2189,25 +2189,25 @@ I":!<!-- CONTENT -->
 	</div>
 	<hr class="clear" />
 </div>;T;
-I"�<!-- CONTENT -->
+I"y<!-- CONTENT -->
 <div id="content_container">
 	<div id="content">
-		<form action="#" method="post" name="contact">
+		<form action="/contact" method="post" name="contact">
 			<table border="0">
 				<tr>
-				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="prenom" required="required"/></td>
+				 	<td><p>Prénom :<small>(requis)</small></p><input type="text" name="firstname" required /></td>
 				</tr>
 				<tr>
-				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="nom" required="required"/></td>
+				 	<td><p>Nom :<small>(requis)</small></p><input type="text" name="lastname" required /></td>
 				</tr>
 				<tr>		 	
-				 	<td><p>Mail :<small>(requis)</small></p><input type="mail" name="mail" required="required"/></td>
+				 	<td><p>Mail :<small>(requis)</small></p><input type="email" name="email" required /></td>
 				</tr>
 				<tr> 	
-				 	<td><p>Demande :<small>(requis)</small></p><textarea rows="10" cols="35" required="required"></textarea></td>
+				 	<td><p>Demande :<small>(requis)</small></p><textarea name="message" rows="10" cols="35" required ></textarea></td>
 				</tr>
 				<tr>
-				 	<td colspan="2"><br/><input type="submit" name="Envoyer" value="Envoyer"/></td>
+				 	<td colspan="2"><br/><input type="submit" name="submit" value="Envoyer"/></td>
 				</tr>
 			</table>
 		</form>
@@ -2226,4 +2226,81 @@ I"�<!-- CONTENT -->
 		</div>
 	</div>
 	<hr class="clear" />
-</div>;T;@~I"/images/Picture clipping/;T{;{ I"/images/pierre/;T{;{ I" /images/Picture clipping 2/;T{;{ I"/images/image002/;T{;{ I"/images/archives/15204/;T{;{ I"/images/archives/15206/;T{;{ I"/images/archives/15208/;T{;{ I"/images/archives/15210/;T{;{ I"/images/archives/15212/;T{;{ I"/images/archives/15808/;T{;{ I"/images/archives/15814/;T{;{ I"/images/archives/15817/;T{;{ I"/images/archives/15820/;T{;{ I"/images/archives/15823/;T{;{ :versioni
+</div>;T;@~I"/images/Picture clipping/;T{;{ I"/images/pierre/;T{;{ I" /images/Picture clipping 2/;T{;{ I"/images/image002/;T{;{ I"/images/archives/15204/;T{;{ I"/images/archives/15206/;T{;{ I"/images/archives/15208/;T{;{ I"/images/archives/15210/;T{;{ I"/images/archives/15212/;T{;{ I"/images/archives/15808/;T{;{ I"/images/archives/15814/;T{;{ I"/images/archives/15817/;T{;{ I"/images/archives/15820/;T{;{ I"/images/archives/15823/;T{;{ I"/contact_merci/;T{;{	;I"3<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Institut Ganesh Lausanne</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="back_img"> 
+      <div id="header">   
+          <div id="site_title">
+              <h1><a href="index.html">Institut Ganesh Lausanne</a></h1>
+              <p><b>Thérapie de la Polarité, Massages Ayurvédiques, Naturopathie</b></p>
+          </div>   
+          <ul id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos services</a></li>
+            <li><a href="doshas.html">les 3 doshas</a></li>
+            <li><a href="polarity.html">Polarity therapy</a></li>
+            <li><a href="stone_mass.html">Stone massage</a></li>
+            <li><a href="seminaires.html">Séminaires</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>  
+
+<!-- CONTENT -->
+<div id="content_container">
+	<div id="content">
+		<p>Votre e-mail a bien été envoyé, merci de votre attention.</p> 
+		<p>Nous traitons votre demande afin de vous contactez dans les plus court délai.</p>
+	</div>
+	<!-- SIDEBAR -->
+	<div id="sidebar_container">
+		<div id="sidebar">
+	
+		</div>
+	</div>
+	<hr class="clear" />
+</div>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <p>Développé par <a href="http://www.liquid-concept.ch">Liquid Concept</a></p>
+  </div>
+
+  </body>
+</html>
+;T;	I"]<!-- CONTENT -->
+<div id="content_container">
+	<div id="content">
+		<p>Votre e-mail a bien été envoyé, merci de votre attention.</p> 
+		<p>Nous traitons votre demande afin de vous contactez dans les plus court délai.</p>
+	</div>
+	<!-- SIDEBAR -->
+	<div id="sidebar_container">
+		<div id="sidebar">
+	
+		</div>
+	</div>
+	<hr class="clear" />
+</div>;T;
+I"]<!-- CONTENT -->
+<div id="content_container">
+	<div id="content">
+		<p>Votre e-mail a bien été envoyé, merci de votre attention.</p> 
+		<p>Nous traitons votre demande afin de vous contactez dans les plus court délai.</p>
+	</div>
+	<!-- SIDEBAR -->
+	<div id="sidebar_container">
+		<div id="sidebar">
+	
+		</div>
+	</div>
+	<hr class="clear" />
+</div>;T;@�:versioni
