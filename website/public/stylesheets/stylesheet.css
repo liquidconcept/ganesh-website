@@ -1,113 +1,131 @@
 /**************
     HEADER
 ***************/
-/* line 10, content/stylesheets/stylesheet.scss */
-#header #site_title {
+/* line 7, content/stylesheets/stylesheet.scss */
+.back_img {
   background-image: url('/images/bg.png?1330077757');
   background-repeat: repeat-x;
   background-color: #0e4679;
   height: 80px; }
-  /* line 16, content/stylesheets/stylesheet.scss */
+
+/* line 14, content/stylesheets/stylesheet.scss */
+#header {
+  margin: 0 auto;
+  display: block;
+  width: 960px; }
+  /* line 21, content/stylesheets/stylesheet.scss */
+  #header #site_title p {
+    font-size: 1em; }
+  /* line 25, content/stylesheets/stylesheet.scss */
   #header #site_title h1 {
     font-size: 42px;
     font-weight: bold;
     color: #0e4679;
     margin: 30px 0 0 40px;
     float: left; }
-/* line 26, content/stylesheets/stylesheet.scss */
-#header a {
-  text-decoration: none;
-  color: #0e4679; }
-/* line 31, content/stylesheets/stylesheet.scss */
-#header p {
-  color: #0e4679;
-  float: right;
-  margin: 50px 40px 0 0;
-  font-style: italic;
-  font-size: 19px; }
+  /* line 35, content/stylesheets/stylesheet.scss */
+  #header a {
+    text-decoration: none;
+    color: #0e4679; }
+  /* line 40, content/stylesheets/stylesheet.scss */
+  #header p {
+    color: #0e4679;
+    float: right;
+    margin: 0px 40px 0 0;
+    font-style: italic;
+    font-size: 19px; }
 
-/* line 43, content/stylesheets/stylesheet.scss */
-#menu li {
-  display: inline;
-  font-size: 13px;
-  margin: 0 20px 0 0;
-  font-weight: bold; }
+/* line 50, content/stylesheets/stylesheet.scss */
+#menu {
+  float: left; }
+  /* line 54, content/stylesheets/stylesheet.scss */
+  #menu li {
+    display: inline;
+    font-size: 18px;
+    margin: 0 20px 0 0;
+    font-weight: bold; }
 
 /**************
      BODY
 ***************/
-/* line 56, content/stylesheets/stylesheet.scss */
+/* line 67, content/stylesheets/stylesheet.scss */
 body {
   margin: 0 0 0 0;
   padding: 0;
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #FFFFFF;
   font-size: 13px; }
-  /* line 63, content/stylesheets/stylesheet.scss */
+  /* line 74, content/stylesheets/stylesheet.scss */
   body p {
     text-align: justify; }
 
-/* line 72, content/stylesheets/stylesheet.scss */
+/* line 79, content/stylesheets/stylesheet.scss */
+#content_container {
+  margin: 0 auto;
+  display: block;
+  width: 960px; }
+
+/* line 85, content/stylesheets/stylesheet.scss */
 #content {
   padding: 20px 20px 20px 40px;
   float: left;
   width: 585px; }
-  /* line 77, content/stylesheets/stylesheet.scss */
+  /* line 90, content/stylesheets/stylesheet.scss */
   #content img {
     margin: 0 auto; }
 
-/* line 83, content/stylesheets/stylesheet.scss */
+/* line 95, content/stylesheets/stylesheet.scss */
 #sidebar_container {
   width: 315px;
-  float: right; }
+  float: left; }
 
-/* line 89, content/stylesheets/stylesheet.scss */
+/* line 100, content/stylesheets/stylesheet.scss */
 #sidebar {
   padding: 20px 40px 20px 20px; }
 
-/* line 93, content/stylesheets/stylesheet.scss */
+/* line 104, content/stylesheets/stylesheet.scss */
 h3 {
   color: #0e4679;
   font-weight: bold;
   font-size: 1.2em; }
 
-/* line 99, content/stylesheets/stylesheet.scss */
+/* line 110, content/stylesheets/stylesheet.scss */
 .img {
   text-align: center; }
 
-/* line 103, content/stylesheets/stylesheet.scss */
+/* line 114, content/stylesheets/stylesheet.scss */
 .sous_titre_img {
   text-align: center;
   font-weight: bold; }
 
-/* line 108, content/stylesheets/stylesheet.scss */
+/* line 119, content/stylesheets/stylesheet.scss */
 .clear {
   clear: both;
   border: none; }
 
-/* line 113, content/stylesheets/stylesheet.scss */
+/* line 124, content/stylesheets/stylesheet.scss */
 a {
   text-decoration: none;
   color: #0e4679; }
 
-/* line 118, content/stylesheets/stylesheet.scss */
+/* line 129, content/stylesheets/stylesheet.scss */
 .img_left {
   float: left;
   margin: 0 10px 10px 0; }
 
-/* line 123, content/stylesheets/stylesheet.scss */
+/* line 134, content/stylesheets/stylesheet.scss */
 h1 {
   color: #0e4679;
   font-size: 1.8em;
   margin-bottom: .4em; }
 
-/* line 129, content/stylesheets/stylesheet.scss */
+/* line 140, content/stylesheets/stylesheet.scss */
 h2 {
   padding: .4em 0 .4em;
   font-size: 1.4em;
   color: orange; }
 
-/* line 135, content/stylesheets/stylesheet.scss */
+/* line 146, content/stylesheets/stylesheet.scss */
 .pierre_img {
   width: 317px;
   height: 228.75px;
@@ -117,15 +135,15 @@ h2 {
 /**************
     FOOTER
 ***************/
-/* line 146, content/stylesheets/stylesheet.scss */
+/* line 157, content/stylesheets/stylesheet.scss */
 #footer {
   border-top: 1px solid #0e4679;
   margin: 10px 40px; }
-  /* line 150, content/stylesheets/stylesheet.scss */
+  /* line 161, content/stylesheets/stylesheet.scss */
   #footer a {
     text-decoration: none;
     color: grey; }
-  /* line 154, content/stylesheets/stylesheet.scss */
+  /* line 165, content/stylesheets/stylesheet.scss */
   #footer p {
     color: grey;
     font-size: 10px;

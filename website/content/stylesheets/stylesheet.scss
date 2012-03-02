@@ -4,14 +4,23 @@ $blue: #0E4679;
 /**************
     HEADER
 ***************/
-
+.back_img {
+  background-image: image-url("bg.png");
+  background-repeat: repeat-x;
+  background-color: $blue;
+  height: image-height('bg.png');
+}
 
 #header {
+  margin: 0 auto;
+  display: block;
+  width: 960px;
+  
   #site_title {
-    background-image: image-url("bg.png");
-    background-repeat: repeat-x;
-    background-color: $blue;
-    height: image-height('bg.png');
+
+    p{
+     font-size: 1em; 
+    }
 
     h1 {
       font-size: 42px;
@@ -31,7 +40,7 @@ $blue: #0E4679;
  p {
    color: $blue;
    float: right;
-   margin: 50px 40px 0 0;
+   margin: 0px 40px 0 0;
    font-style: italic;
    font-size: 19px;
  }
@@ -40,9 +49,11 @@ $blue: #0E4679;
 
 #menu {
 
+  float: left;
+
   li {
     display: inline;
-    font-size: 13px;
+    font-size: 18px;
     margin: 0 20px 0 0;
     font-weight: bold;
   }
@@ -66,7 +77,9 @@ body {
 }
 
 #content_container {
-  
+  margin: 0 auto;
+  display: block;
+  width: 960px;
 }
 
 #content {
@@ -76,14 +89,12 @@ body {
 
   img{
     margin: 0 auto;
-
   }
 }
 
 #sidebar_container {
   width: 315px;
-  float: right;
-  
+  float: left ;  
 }
 
 #sidebar {
