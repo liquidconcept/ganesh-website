@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Institut Ganesh Lausanne</title>
+  <link rel="stylesheet" href="<%= stylesheet_path 'application' %>" media="screen">
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="back_img">
+    <div id="header">
+        <div id="site_title">
+            <h1><a href="index.html">Institut Ganesh Lausanne</a></h1>
+            <p><b>Thérapie de la Polarité, Massages Ayurvédiques, Naturopathie</b></p>
+        </div>
+        <ul id="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Nos services</a></li>
+          <li><a href="doshas.html">les 3 doshas</a></li>
+          <li><a href="polarity.html">Polarity therapy</a></li>
+          <li><a href="stone_mass.html">Stone massage</a></li>
+          <li><a href="seminaires.html">Séminaires</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <%= yield %>
+
+  <!-- FOOTER -->
+  <div id="footer">
+    <p>Développé par <a href="http://www.liquid-concept.ch">Liquid Concept</a></p>
+  </div>
+</body>
+</html>

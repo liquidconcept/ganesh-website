@@ -1,1 +1,5 @@
-.Ds_Store
+/public/
+/tmp/
+.DS_Store
+.sass-cache/
+.powder
