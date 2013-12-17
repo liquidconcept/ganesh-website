@@ -4,7 +4,7 @@ set :domain,      'institutganesh.ch'
 set :server_name, 'ruby-rack-2.liquid-concept.ch'
 
 set :scm,         :git
-set :repository,  'git@git.liquid-concept.ch:clients/ganesh/website.git'
+set :repository,  'git@github.com:liquidconcept/ganesh-website.git'
 set :branch,      'production'
 
 ssh_options[:forward_agent] = true
