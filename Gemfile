@@ -12,7 +12,7 @@ gem 'sprockets-helpers'
 gem 'sass'
 gem 'compass'
 gem 'uglifier'
-gem 'libv8', '~> 3.11.8'
+gem 'libv8'
 gem 'therubyracer'
 gem 'nanoc-sprockets-filter'
 gem 'nanoc-gzip-filter'
@@ -21,7 +21,7 @@ group :production, :staging do
 end
 
 group :development do
-  gem 'capistrano'
+  gem 'capistrano', '2.15.4'
   gem 'railsless-deploy'
 end
 
@@ -37,4 +37,3 @@ group :guard do
   gem 'livereload'
   gem 'guard-livereload'
 end
-

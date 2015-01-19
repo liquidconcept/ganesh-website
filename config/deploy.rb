@@ -31,7 +31,7 @@ namespace :deploy do
   end
 end
 
-before 'deploy:symlink' do
+before 'deploy:create_symlink' do
   run "cd #{release_path} && RACK_ENV=\"production\" bundle exec nanoc compile > /dev/null"
 end
 
