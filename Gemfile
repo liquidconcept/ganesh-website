@@ -26,9 +26,6 @@ group :development do
 end
 
 group :development, :test do
-end
-
-group :guard do
   gem 'rb-fsevent'
   gem 'guard'
 
